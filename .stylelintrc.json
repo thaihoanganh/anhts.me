@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-prettier-scss",
+    "stylelint-prettier/recommended",
+    "stylelint-config-recess-order"
+  ],
+  "plugins": ["stylelint-prettier", "stylelint-color-format"],
+  "rules": {
+    "prettier/prettier": true,
+    "order/properties-alphabetical-order": null,
+    "color-format/format": {
+      "format": "rgb"
+    },
+    "color-named": "never",
+    "selector-class-pattern": null,
+    "no-descending-specificity": null
+  }
+}
